@@ -1,6 +1,6 @@
 public class Tamagotchi {
     private String name;
-    private boolean Hungry = true;
+    private boolean Hungry = false;
 
     public String getName() {
         return name;
@@ -12,5 +12,9 @@ public class Tamagotchi {
 
     public boolean isHungry() {
         return Hungry;
+    }
+
+    public void fullTummy() {
+        Hungry = false;
     }
 }

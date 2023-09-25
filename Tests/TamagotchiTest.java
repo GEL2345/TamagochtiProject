@@ -4,6 +4,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TamagotchiTest {
     @Test
+    void hungryAfterEating(){
+        Tamagotchi t = new Tamagotchi("Tammy");
+        t.fullTummy();
+        assertFalse(t.isHungry());
+    }
+
+    @Test
     void testHungry() {
         Tamagotchi t = new Tamagotchi("Tammy");
         assertFalse(t.isHungry());

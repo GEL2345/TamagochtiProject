@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2470ecfe-cac7-4b8c-b015-cf259815350a" name="Changes" comment="ISHungry">
+    <list default="true" id="2470ecfe-cac7-4b8c-b015-cf259815350a" name="Changes" comment="ISHungry Now True">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TamagotchiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TamagotchiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tamagotchi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tamagotchi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +58,16 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="TamagotchiTest.hungryAfterEating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TamagochtiProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TamagotchiTest" />
+      <option name="METHOD_NAME" value="hungryAfterEating" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TamagotchiTest.testHungry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TamagochtiProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TamagotchiTest.hungryAfterEating" />
         <item itemvalue="JUnit.TamagotchiTest.testHungry" />
       </list>
     </recent_temporary>
@@ -109,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695638661175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ISHungry">
+      <created>1695639042147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695639042147</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ISHungry Now True">
+      <created>1695639483484</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695639483484</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +144,7 @@
     <MESSAGE value="Intital Commit Tamagotchi" />
     <MESSAGE value="Test Tammy" />
     <MESSAGE value="ISHungry" />
-    <option name="LAST_COMMIT_MESSAGE" value="ISHungry" />
+    <MESSAGE value="ISHungry Now True" />
+    <option name="LAST_COMMIT_MESSAGE" value="ISHungry Now True" />
   </component>
 </project>
