@@ -9,4 +9,8 @@ public class Tamagotchi {
     public Tamagotchi(String name) {
         this.name = name;
     }
+
+    public boolean isHungry() {
+        return false;
+    }
 }
