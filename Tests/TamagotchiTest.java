@@ -3,6 +3,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TamagotchiTest {
+    Tamagotchi t = new Tamagotchi("Tammy",6, 2.3f);
+
     @Test
     void hungryAfterEating(){
         Tamagotchi t = new Tamagotchi("Tammy");
@@ -20,5 +22,12 @@ class TamagotchiTest {
     void getName() {
         Tamagotchi t = new Tamagotchi("Tammy");
         assertEquals("Tammy", t.getName());
+    }
+    @Test
+    void testTamagotchiCreation() {
+        assertEquals("Tammy", t.getName());
+        assertEquals(6, t.getAgeinDays());
+        assertEquals(2.3f, t.getHeight());
+
     }
 }
