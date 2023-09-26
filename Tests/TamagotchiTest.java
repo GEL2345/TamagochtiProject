@@ -25,9 +25,10 @@ class TamagotchiTest {
     }
     @Test
     void testTamagotchiCreation() {
-        assertEquals("Tammy", t.getName());
-        assertEquals(6, t.getAgeinDays());
-        assertEquals(2.3f, t.getHeight());
-
+        assertAll( "Testing Object Construction",
+                () -> assertEquals("Tammy", t.getName()),
+                () -> assertEquals(6, t.getAgeinDays()),
+                () -> assertEquals(2.3f, t.getHeight())
+        );
     }
 }
